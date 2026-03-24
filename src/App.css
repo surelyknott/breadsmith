@@ -416,6 +416,19 @@ p {
   letter-spacing: -0.02em;
 }
 
+.bakes-intro-image-breakout {
+  margin: 28px -28px 0;
+  overflow: hidden;
+}
+
+.bakes-intro-image {
+  display: block;
+  width: 100%;
+  height: clamp(320px, 58vw, 640px);
+  object-fit: cover;
+  object-position: center 38%;
+}
+
 .product-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -804,6 +817,10 @@ p {
     margin-inline: -20px;
   }
 
+  .bakes-intro-image-breakout {
+    margin-inline: -20px;
+  }
+
   #featured-products {
     scroll-margin-top: 132px;
   }
@@ -911,6 +928,10 @@ p {
   .bakes-intro-button {
     min-width: 100%;
     min-height: 64px;
+  }
+
+  .bakes-intro-image {
+    height: 360px;
   }
 
   .product-grid,

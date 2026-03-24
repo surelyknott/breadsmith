@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useState } from 'react'
 import { NavLink, Route, Routes, useLocation } from 'react-router-dom'
+import bakesIntroImage from '../images/bakes/bake-01.webp'
 import breadsmithHeroImage from '../images/breadsmith-hero-02.webp'
 import breadsmithLogo from '../images/breadsmith-logo.png'
 import './App.css'
@@ -161,6 +162,13 @@ function HomePage() {
           <a className="bakes-intro-button" href="#featured-products">
             {siteData.bakesIntro.cta}
           </a>
+        </div>
+        <div className="bakes-intro-image-breakout">
+          <img
+            src={bakesIntroImage}
+            alt=""
+            className="bakes-intro-image"
+          />
         </div>
       </section>
 
