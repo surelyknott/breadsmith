@@ -162,6 +162,7 @@
 
 .hero-block {
   margin-top: 0;
+  margin-inline: -28px;
 }
 
 .hero-media,
@@ -180,8 +181,10 @@
 .hero-media {
   position: relative;
   min-height: 640px;
-  padding: 34px;
+  padding: 0;
   overflow: hidden;
+  border: none;
+  border-radius: 0;
   background:
     linear-gradient(180deg, rgba(10, 32, 22, 0.18), rgba(10, 32, 22, 0.46)),
     radial-gradient(circle at top left, rgba(211, 228, 216, 0.8), transparent 28%),
@@ -196,29 +199,6 @@
   object-fit: cover;
   object-position: center;
   opacity: 0.92;
-}
-
-.hero-media::before,
-.hero-media::after {
-  content: '';
-  position: absolute;
-  border-radius: 999px;
-  background: rgba(246, 250, 247, 0.12);
-  filter: blur(0.5px);
-}
-
-.hero-media::before {
-  width: 420px;
-  height: 420px;
-  right: -90px;
-  top: -110px;
-}
-
-.hero-media::after {
-  width: 280px;
-  height: 280px;
-  left: -70px;
-  bottom: -80px;
 }
 
 .media-badge,
@@ -251,6 +231,7 @@
   min-height: 100%;
   flex-direction: column;
   justify-content: flex-end;
+  padding: 34px;
 }
 
 .eyebrow,
@@ -761,14 +742,21 @@ p {
     grid-template-columns: 1fr;
   }
 
+  .hero-block {
+    margin-inline: -20px;
+  }
+
   .hero-media {
     min-height: 520px;
-    padding: 26px;
   }
 
   .media-badge,
   .hero-note {
     left: 26px;
+  }
+
+  .media-overlay {
+    padding: 26px;
   }
 
   .header-inner {
