@@ -2,6 +2,7 @@ import { useCallback, useEffect, useState } from 'react'
 import { NavLink, Route, Routes, useLocation } from 'react-router-dom'
 import bakesIntroImage from '../images/bakes/bake-01.webp'
 import breadsmithHeroImage from '../images/breadsmith-hero-02.webp'
+import founderPhoto from '../images/sam/sam-home.webp'
 import breadsmithLogo from '../images/breadsmith-logo.png'
 import './App.css'
 import { siteData } from './siteData'
@@ -245,7 +246,11 @@ function StoryPage() {
         <div className="story-layout">
           <div className="founder-photo">
             <div className="founder-photo-frame">
-              <span>Founder image placeholder</span>
+              <img
+                src={founderPhoto}
+                alt="Founder of The Breadsmith"
+                className="founder-photo-image"
+              />
             </div>
             <p>{siteData.story.founderNote}</p>
           </div>

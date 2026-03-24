@@ -215,7 +215,7 @@ export const siteData = {
     intro:
       'The story page should feel personal without becoming rambling. It needs a strong founder image, a short origin story, and enough context to explain why people choose this bakery over a generic bread order.',
     founderNote:
-      'Placeholder image block for Sam or a strong portrait in the bakery. Replace with real photography when available.',
+      'Founder portrait added to anchor the story page with a real image rather than a placeholder block.',
     values: [
       {
         title: 'Made slowly',
