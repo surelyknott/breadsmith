@@ -5,7 +5,7 @@ export const siteData = {
     'Weekly drops land on Instagram first. Pre-orders open midweek for weekend collections.',
   hero: {
     eyebrow: 'Microbakery in motion',
-    title: 'Made in Tunbridge Wells.',
+    title: 'Made in Kent.',
     primaryCta: 'See the Menu',
     secondaryCta: 'How Orders Work',
     stats: [
@@ -13,6 +13,16 @@ export const siteData = {
       { label: 'Menu style', value: 'Cut-out product cards' },
       { label: 'Story angle', value: 'Founder-led and local' },
     ]
+  },
+  bakesIntro: {
+    titleLineOne: 'Baked on-site',
+    titleLineTwo: 'in Tunbridge Wells',
+    description:
+      'Our everyday loaves, speciality bakes and pastries are made from scratch in our Tunbridge Wells bakery.',
+    hoursLabel: 'Opening hours',
+    hours: 'Thursday - Monday, 08.30-14.00',
+    closedNote: '(Closed Tuesday & Wednesday)',
+    cta: 'Discover our Bakes',
   },
   homeHighlights: [
     {

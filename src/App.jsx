@@ -149,6 +149,22 @@ function HomePage() {
       </section>
 
       <section className="content-section">
+        <div className="bakes-intro">
+          <h2 className="bakes-intro-title">
+            <span>{siteData.bakesIntro.titleLineOne}</span>
+            <span>{siteData.bakesIntro.titleLineTwo}</span>
+          </h2>
+          <p className="bakes-intro-copy">{siteData.bakesIntro.description}</p>
+          <p className="bakes-intro-label">{siteData.bakesIntro.hoursLabel}</p>
+          <p className="bakes-intro-hours">{siteData.bakesIntro.hours}</p>
+          <p className="bakes-intro-hours">{siteData.bakesIntro.closedNote}</p>
+          <a className="bakes-intro-button" href="#featured-products">
+            {siteData.bakesIntro.cta}
+          </a>
+        </div>
+      </section>
+
+      <section className="content-section">
         <div className="stat-strip">
           {siteData.hero.stats.map((item) => (
             <article key={item.label} className="stat-card">
@@ -175,7 +191,7 @@ function HomePage() {
         </div>
       </section>
 
-      <section className="content-section accent-section">
+      <section id="featured-products" className="content-section accent-section">
         <SectionHeading
           eyebrow="Featured Products"
           title="Cut-out product styling, ready for real transparent PNGs later"

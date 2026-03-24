@@ -165,6 +165,10 @@
   margin-inline: -28px;
 }
 
+#featured-products {
+  scroll-margin-top: 150px;
+}
+
 .hero-media,
 .panel,
 .stat-card,
@@ -362,6 +366,54 @@ p {
   padding: 28px;
   border-radius: 30px;
   background: var(--accent-wash);
+}
+
+.bakes-intro {
+  display: grid;
+  justify-items: center;
+  gap: 18px;
+  padding: 18px 20px 8px;
+  text-align: center;
+}
+
+.bakes-intro-title {
+  display: grid;
+  gap: 4px;
+  font-size: clamp(2rem, 6vw, 3.8rem);
+  line-height: 0.96;
+  letter-spacing: -0.05em;
+}
+
+.bakes-intro-copy {
+  max-width: 32rem;
+  font-size: clamp(1.2rem, 2.2vw, 1.6rem);
+  line-height: 1.45;
+}
+
+.bakes-intro-label {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-strong);
+}
+
+.bakes-intro-hours {
+  font-size: clamp(1.2rem, 2vw, 1.5rem);
+  color: var(--text-strong);
+}
+
+.bakes-intro-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: min(100%, 430px);
+  min-height: 72px;
+  padding: 0 30px;
+  margin-top: 4px;
+  background: #1f2d25;
+  color: #f4f7f3;
+  font-family: 'Iowan Old Style', 'Palatino Linotype', 'Book Antiqua', serif;
+  font-size: clamp(1.1rem, 2.4vw, 1.5rem);
+  letter-spacing: -0.02em;
 }
 
 .product-grid {
@@ -752,6 +804,10 @@ p {
     margin-inline: -20px;
   }
 
+  #featured-products {
+    scroll-margin-top: 132px;
+  }
+
   .hero-media {
     min-height: 520px;
   }
@@ -842,6 +898,19 @@ p {
 
   .logo-link {
     justify-self: center;
+  }
+
+  .bakes-intro {
+    padding-top: 8px;
+  }
+
+  .bakes-intro-copy {
+    max-width: 22rem;
+  }
+
+  .bakes-intro-button {
+    min-width: 100%;
+    min-height: 64px;
   }
 
   .product-grid,
