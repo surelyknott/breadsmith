@@ -426,7 +426,7 @@ p {
   width: 100%;
   height: clamp(320px, 58vw, 640px);
   object-fit: cover;
-  object-position: center 38%;
+  /* object-position: center 38%; */
 }
 
 .product-grid {
@@ -931,7 +931,7 @@ p {
   }
 
   .bakes-intro-image {
-    height: 360px;
+    height: 450px;
   }
 
   .product-grid,
