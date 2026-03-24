@@ -5,18 +5,14 @@ export const siteData = {
     'Weekly drops land on Instagram first. Pre-orders open midweek for weekend collections.',
   hero: {
     eyebrow: 'Microbakery in motion',
-    title: 'Big visuals, clear ordering, and a site that feels as considered as the baking.',
-    description:
-      'This first pass is designed around the brief you got from the client: strong homepage imagery, the Breadsmith logo at the top, and a calmer cream-and-sage palette shaped by the real brand colour.',
+    title: 'Made in Tunbridge Wells.',
     primaryCta: 'See the Menu',
     secondaryCta: 'How Orders Work',
     stats: [
       { label: 'Hero media', value: 'Photo or video ready' },
       { label: 'Menu style', value: 'Cut-out product cards' },
       { label: 'Story angle', value: 'Founder-led and local' },
-    ],
-    mediaNote:
-      'Placeholder block for a full-width bakery video or strong product photography. Replace with real footage when ready.',
+    ]
   },
   homeHighlights: [
     {

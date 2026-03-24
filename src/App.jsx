@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useState } from 'react'
 import { NavLink, Route, Routes, useLocation } from 'react-router-dom'
+import breadsmithHeroImage from '../images/breadsmith-hero-02.webp'
 import breadsmithLogo from '../images/breadsmith-logo.png'
 import './App.css'
 import { siteData } from './siteData'
@@ -127,11 +128,14 @@ function HomePage() {
     <>
       <section className="hero-block">
         <div className="hero-media">
-          <div className="media-badge">Hero photo or video placeholder</div>
+          <img
+            src={breadsmithHeroImage}
+            alt=""
+            className="hero-image"
+          />
           <div className="media-overlay">
             <p className="eyebrow">{siteData.hero.eyebrow}</p>
             <h1>{siteData.hero.title}</h1>
-            <p className="hero-text">{siteData.hero.description}</p>
             <div className="hero-actions">
               <NavLink to="/menu" className="button button-primary">
                 {siteData.hero.primaryCta}
@@ -141,7 +145,6 @@ function HomePage() {
               </NavLink>
             </div>
           </div>
-          <div className="hero-note">{siteData.hero.mediaNote}</div>
         </div>
       </section>
 
