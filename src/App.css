@@ -131,8 +131,6 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid var(--shell-border);
-  background: rgba(255, 255, 255, 0.5);
   color: var(--text-body);
 }
 
@@ -257,7 +255,7 @@ h3 {
 
 .hero-media h1 {
   max-width: 11ch;
-  margin: 14px 0 18px;
+  margin: 14px 0 18px 20px;
   color: #f7fbf8;
   font-size: clamp(3.4rem, 8vw, 7.2rem);
   line-height: 0.92;
@@ -294,11 +292,10 @@ p {
   display: flex;
   /* flex-wrap: wrap; */
   gap: 12px;
-  margin-top: 210px;
 }
 
 .button {
-  min-height: 50px;
+  min-height: 40px;
   padding: 0 18px;
   display: inline-flex;
   align-items: center;
@@ -313,9 +310,13 @@ p {
 }
 
 .button-secondary {
-  background: rgba(255, 255, 255, 0.12);
-  border-color: rgba(255, 255, 255, 0.2);
-  color: #f7fbf8;
+    background: #3a5742;
+    border-color: rgba(255, 255, 255, 0.2);
+    color: #f7fbf8;
+}
+
+.button-hero {
+  margin-left: 20px;
 }
 
 .stat-strip,
@@ -938,5 +939,6 @@ p {
 
   .hero-media h1 {
     font-size: clamp(2.7rem, 14vw, 4.6rem);
+    margin: 14px 0 18px;
   }
 }

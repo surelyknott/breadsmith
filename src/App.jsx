@@ -132,7 +132,7 @@ function HomePage() {
           <div className="media-overlay">
             <h1>{siteData.hero.title}</h1>
             <div className="hero-actions">
-              <NavLink to="/menu" className="button button-primary">
+              <NavLink to="/menu" className="button button-primary button-hero">
                 {siteData.hero.primaryCta}
               </NavLink>
               <NavLink to="/orders" className="button button-secondary">
