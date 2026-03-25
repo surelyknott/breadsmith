@@ -130,7 +130,6 @@ function HomePage() {
             className="hero-image"
           />
           <div className="media-overlay">
-            <p className="eyebrow">{siteData.hero.eyebrow}</p>
             <h1>{siteData.hero.title}</h1>
             <div className="hero-actions">
               <NavLink to="/menu" className="button button-primary">
@@ -167,7 +166,7 @@ function HomePage() {
         </div>
       </section>
 
-      <section className="content-section">
+      {/* <section className="content-section">
         <div className="stat-strip">
           {siteData.hero.stats.map((item) => (
             <article key={item.label} className="stat-card">
@@ -176,7 +175,7 @@ function HomePage() {
             </article>
           ))}
         </div>
-      </section>
+      </section> */}
 
       <section className="content-section">
         <SectionHeading

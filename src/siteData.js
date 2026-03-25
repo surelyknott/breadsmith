@@ -4,15 +4,14 @@ export const siteData = {
   announcement:
     'Weekly drops land on Instagram first. Pre-orders open midweek for weekend collections.',
   hero: {
-    eyebrow: 'Microbakery in motion',
     title: 'Made in Kent.',
     primaryCta: 'See the Menu',
     secondaryCta: 'How Orders Work',
-    stats: [
-      { label: 'Hero media', value: 'Photo or video ready' },
-      { label: 'Menu style', value: 'Cut-out product cards' },
-      { label: 'Story angle', value: 'Founder-led and local' },
-    ]
+    // stats: [
+    //   { label: 'Hero media', value: 'Photo or video ready' },
+    //   { label: 'Menu style', value: 'Cut-out product cards' },
+    //   { label: 'Story angle', value: 'Founder-led and local' },
+    // ]
   },
   bakesIntro: {
     titleLineOne: 'Baked on-site',

@@ -1,7 +1,7 @@
 .site-shell {
   --shell-bg: rgba(252, 251, 247, 0.88);
   --shell-border: rgba(92, 144, 114, 0.16);
-  --panel-bg: rgba(255, 255, 255, 0.82);
+  /* --panel-bg: rgba(255, 255, 255, 0.82); the panel background could work... */
   --panel-soft: rgba(244, 249, 245, 0.92);
   --accent-wash: rgba(92, 144, 114, 0.1);
   --text-strong: #3a5742;
@@ -162,7 +162,7 @@
   scroll-margin-top: 150px;
 }
 
-.hero-media,
+/* .hero-media,
 .panel,
 .stat-card,
 .product-card,
@@ -173,7 +173,7 @@
   border: 1px solid var(--shell-border);
   border-radius: 28px;
   box-shadow: 0 16px 40px rgba(56, 87, 68, 0.08);
-}
+} */
 
 .hero-media {
   position: relative;
@@ -357,7 +357,7 @@ p {
 
 .accent-section {
   padding: 28px;
-  border-radius: 30px;
+  /* border-radius: 30px; */
   background: var(--accent-wash);
 }
 
@@ -660,7 +660,6 @@ p {
   padding: 18px;
   display: flex;
   align-items: end;
-  border-radius: 22px;
   background:
     linear-gradient(180deg, rgba(18, 49, 36, 0), rgba(18, 49, 36, 0.46)),
     linear-gradient(135deg, #9ab7a4, #d6e5da);
