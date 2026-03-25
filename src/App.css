@@ -1,5 +1,5 @@
 .site-shell {
-  --shell-bg: rgba(252, 251, 247, 0.88);
+  --shell-bg: rgba(252, 251, 247, 1);
   --shell-border: rgba(92, 144, 114, 0.16);
   /* --panel-bg: rgba(255, 255, 255, 0.82); the panel background could work... */
   --panel-soft: rgba(244, 249, 245, 0.92);
