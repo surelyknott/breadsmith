@@ -11,11 +11,8 @@
   --button-strong-text: #f7fbf7;
   --button-soft: rgba(92, 144, 114, 0.08);
   --shadow: 0 30px 90px rgba(56, 87, 68, 0.12);
-  width: min(1220px, calc(100% - 28px));
-  margin: 14px auto;
-  background: var(--shell-bg);
-  border: 1px solid var(--shell-border);
-  border-radius: 30px;
+  /* width: min(1220px, calc(100% - 28px)); */
+  /* background: var(--shell-bg); */
   overflow: clip;
   box-shadow: var(--shadow);
   backdrop-filter: blur(18px);
@@ -149,10 +146,6 @@
   background: var(--button-strong);
   border-color: var(--button-strong);
   color: var(--button-strong-text);
-}
-
-.page-main {
-  padding: 28px;
 }
 
 .hero-block,
@@ -783,12 +776,6 @@ p {
 }
 
 @media (max-width: 900px) {
-  .site-shell {
-    width: min(100%, calc(100% - 14px));
-    margin: 7px auto;
-    border-radius: 24px;
-  }
-
   .announcement-bar,
   .header-inner,
   .page-main,

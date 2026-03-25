@@ -79,12 +79,6 @@ function SiteHeader({
 
   return (
     <header className="site-header">
-      <div className="announcement-bar">
-        <span>{siteData.announcement}</span>
-        <a href={siteData.contact.instagramUrl} target="_blank" rel="noreferrer">
-          Follow on Instagram
-        </a>
-      </div>
       <div className="header-inner">
         <button
           type="button"
