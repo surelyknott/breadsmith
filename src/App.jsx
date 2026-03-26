@@ -82,7 +82,7 @@ function SiteHeader({
       <div className="header-inner">
         <button
           type="button"
-          className="menu-toggle"
+          className={isMobileMenuOpen ? 'menu-toggle menu-toggle-open' : 'menu-toggle'}
           onClick={onMobileMenuToggle}
           aria-expanded={isMobileMenuOpen}
           aria-controls="primary-nav"
